@@ -1,9 +1,9 @@
 public class Cow implements Animal
 {
-    public static String GetSound() 
+    @Override
+    public String GetSound() 
     {
-        String sound = "Moo";
-        return sound;
+        return "moo";
     }
 
     

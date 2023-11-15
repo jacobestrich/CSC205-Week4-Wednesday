@@ -1,9 +1,9 @@
 public class Cat implements Animal
 {
-    public static String GetSound() 
+    @Override
+    public String GetSound() 
     {
-        String sound = "Meow";
-        return sound;
+        return "meow";
     }
 
     
